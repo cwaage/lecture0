@@ -17,3 +17,6 @@ else:
 outFile = open(file_name, "w")
 outFile.write(text)
 outFile.write("\n That's It!")
+
+# Close the Bloody File
+outFile.close() 
